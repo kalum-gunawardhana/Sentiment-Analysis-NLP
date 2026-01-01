@@ -14,6 +14,7 @@ from sklearn.metrics import accuracy_score
 # Download NLTK resources
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 ps = PorterStemmer()
 
